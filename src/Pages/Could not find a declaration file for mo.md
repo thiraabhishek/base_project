@@ -1,0 +1,2 @@
+Could not find a declaration file for module 'react-table'. 'e:/Base Project/Dashboard/vite-project/node_modules/react-table/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react-table` if it exists or add a new declaration (.d.ts) file containing `declare module 'react-table';`

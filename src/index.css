@@ -1,0 +1,223 @@
+/*************************************************
+**************************************************
+
+Website Name: 
+Website URL: 
+Website Author: Tabitha Turton
+Author URL: tabithaturton.com
+Copyright 2017. All Rights Reserved.
+
+Color Guide
+***************
+
+
+*************************************************
+
+Type Guide
+***************
+
+
+Debugging Tools
+***************
+border: 1px solid #fff;
+
+*************************************************/
+
+/************************************************
+*************************************************
+0. CSS Reset ------------------------ 
+1. Universal Styles -----------------
+2. Header & Nav Styles -------------- 
+3. Main Body Styles ----------------- 
+4. Sidebar Styles ------------------- 
+5. Widget Styles --------------------
+6. Footer Styles -------------------- 
+7. Comments & Form Styles ----------- 
+8. Generic Styles ----------- 
+*************************************************
+************************************************/
+
+/*----------------------------------------------
+------------------------------------------------
+0. CSS Reset
+------------------------------------------------
+----------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*----------------------------------------------
+  ------------------------------------------------
+  1. Universal Styles
+  ------------------------------------------------
+  ----------------------------------------------*/
+body {
+  font-family: ;
+}
+.submit_button {
+  width: 100%;
+}
+.ant-space-item {
+  width: 100%;
+}
+/*----------------------------------------------
+  ------------------------------------------------
+
+  
+  2. AuthStyles
+  ------------------------------------------------
+  ----------------------------------------------*/
+.login_form_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.project_info_container {
+  width: 100%;
+  height: 100vh;
+}
+
+.project_info_container img {
+  height: 100%;
+  width: 100%;
+}
+
+.ant-input-affix-wrapper {
+  border-radius: 4px;
+}
+input.ant-input {
+  background: none !important;
+}
+.app_logo {
+  text-align: center;
+  padding: 20px 0px 30px 0px;
+  cursor: pointer;
+  border-bottom: 1px solid rgb(68, 65, 65);
+  margin-bottom: 10px;
+}
+.app_logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.login_form_box {
+  width: 100%;
+}
+/*----------------------------------------------
+  ------------------------------------------------
+  3. AddTable Body Styles
+  ------------------------------------------------
+  ----------------------------------------------*/
+.all_table_row {
+  align-items: center;
+  justify-content: center;
+}
+.add_column_header {
+  /* text-align: center; */
+  padding: 20px 10px;
+}
+/*----------------------------------------------
+  ------------------------------------------------
+  4. Table Styles
+  ------------------------------------------------
+  ----------------------------------------------*/
+.table_container {
+  margin: 10px;
+  width: 99%;
+  font-size: 12px;
+  font-weight: 500;
+}
+.table {
+  width: 100%;
+  padding: 10px;
+  border-spacing: 1px;
+  margin-bottom: 20px;
+  color: black !important;
+}
+
+.table_row {
+  background: linear-gradient(
+    178deg,
+    rgba(255, 159, 28, 1) 0%,
+    rgba(255, 191, 28, 1) 86%
+  );
+  border-radius: 6px 0 0 0;
+  -moz-border-radius: 6px 0 0 0;
+  -webkit-border-radius: 6px 0 0 0;
+  height: 62px;
+  color: white;
+}
+
+.table_header {
+  text-align: left;
+  padding: 5px 10px;
+  position: relative;
+}
+.table_sorting_controls {
+  display: flex;
+  position: absolute;
+  left: 0;
+}
+
+.icons_box {
+  cursor: pointer;
+}
+.table_row_body {
+  background-color: #dddcdc6e;
+  color: white;
+  height: 65px;
+}
+
+.table_data {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid whitesmoke;
+  max-width: 100px;
+  overflow: hidden;
+}
+
+.table_pagination {
+  width: 125px;
+  margin-left: auto;
+  margin-right: 50px;
+}
+.table_controls{
+  background:linear-gradient(178deg, rgba(255,159,28,1) 0%, rgba(255,191,28,1) 86%);
+  color: white;
+  border-radius: 6px;
+  padding: 6px 6px;
+  width: fit-content;
+}
+.table_controls_box{
+  display: flex;
+}
+.table_control_items{
+  padding: 2px 10px;
+}
+/*----------------------------------------------
+  ------------------------------------------------
+  5. Widget Styles
+  ------------------------------------------------
+  ----------------------------------------------*/
+
+/*----------------------------------------------
+  ------------------------------------------------
+  6. Footer Styles
+  ------------------------------------------------
+  ----------------------------------------------*/
+
+/*----------------------------------------------
+  ------------------------------------------------
+  7. Comments & Form Styles
+  ------------------------------------------------
+  ----------------------------------------------*/
+
+/*----------------------------------------------
+  ------------------------------------------------
+  8. Generic Styles
+  ------------------------------------------------
+  ----------------------------------------------*/
